@@ -1,0 +1,47 @@
+body{
+    margin-left: 440px; 
+    margin-right: 715px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    font-size: 15px;
+}
+span{
+    float: left; 
+    height: 32px; 
+    width: 32px; 
+    background-color: grey;
+    border-radius: 50%;
+}
+input{
+    margin-left: 20px; 
+    width: 660px; 
+    height: 30px; 
+    border-radius: 25px;
+}
+ol{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: rgb(63, 62, 62);
+}
+.point{
+    float: left;
+}
+.d{
+    float: right;
+}
+ol{
+    font-size: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 62, 62);
+}
+.d{
+    color: grey; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.n{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+}
