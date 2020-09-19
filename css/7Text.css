@@ -1,0 +1,17 @@
+.a{
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+.b{
+    text-decoration-line: line-through;
+    text-indent: 100px;
+    color: blue;
+}
+
+.c{
+   letter-spacing: 4px;
+   text-decoration-line: underline;
+   background-color: bisque;
+}
