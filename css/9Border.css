@@ -1,0 +1,33 @@
+.a{
+    border-style: dotted;
+}
+.b{
+    border-style: dashed;
+}
+.c{
+    border-style: solid;
+}
+.d{
+    border-style: double;
+}
+.e{
+    border-style: groove;
+}
+.f{
+    border-style: ridge;
+}
+.g{
+    border-style: inset;
+}
+.h{
+    border-style: outset;
+}
+.i{
+    border-style: none;
+}
+.j{
+    border-style: hidden;
+}
+.k{
+    border-style: dotted dashed solid double;
+}

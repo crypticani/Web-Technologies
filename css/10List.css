@@ -1,0 +1,22 @@
+.a{
+    list-style-type: lower-alpha;
+}
+.b{
+    list-style-position: inside
+}
+.c{
+    list-style-type: lower-roman;
+}
+.d{
+    list-style-type: lower-greek;
+   
+}
+.e{
+    list-style-type: disc;
+}
+.f{
+    list-style-type: square;
+}
+.g{
+    list-style-type: circle;
+}
