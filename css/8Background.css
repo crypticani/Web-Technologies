@@ -1,0 +1,16 @@
+body{
+    background-image: url(https://crypticani.github.io/Web-Technologies/media/wallpaper1-min.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+h1{
+    background-color: aliceblue;
+   
+}
+.b,.c{
+    background-color: antiquewhite;
+}
