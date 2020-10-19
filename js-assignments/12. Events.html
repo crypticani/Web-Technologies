@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Events in JS</title>
+    </head>
+    <body onload="function3()">
+        <h2>Events in JS</h2>
+        <h3>Use of onload, onmouseover, onmouseout, onblur and onsubmit</h3>
+        <h3 onmouseover="style.color='red'" onmouseout="style.color='black'">
+            This line changes its color on mouseover</h3>
+
+        <form onsubmit="function1()" id="form1" action="https://bing.com">
+            Name: <input type="text" id="name" onblur="function2()">
+            <input type="submit">
+        </form>
+        <script>
+            function function1(){
+                name = document.getElementById("form1").name.value
+                alert("Hello "+ name + "\nYou will be redirected to bing.")
+            }
+            function function2(){
+                x = document.getElementById("name")
+                x.value = x.value.toUpperCase()
+            }
+            function function3(){
+                alert("Page is loaded!")
+            }
+        </script>
+    </body>
+</html>

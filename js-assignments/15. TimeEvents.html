@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timing events</title>
+    </head>
+    <body>
+        <h2>Timing events</h2>
+        <h4>Click on the below button to recieve an alert after 3 seconds</h4>
+        <button onclick="myfun = setTimeout(myFunction, 3000)">click me</button>
+        <button onclick="clearTimeout(myfun)">Stop it</button>
+        <br><br>
+        <h4>Current Time: </h4>
+        <h3 id="time"></h3>
+        <script>
+        function myFunction() {
+          alert('Hello!\nYou recieved this alert after 3 seconds.')
+        }
+        </script> 
+        <script>
+            myfun1 = setInterval(myTimer, 1000)
+
+            function myTimer() {
+                var d = new Date();
+                document.getElementById("time").innerHTML = d.toLocaleTimeString();
+            }
+        </script>
+    </body>
+</html>

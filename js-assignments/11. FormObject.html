@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form Object Elements
+        </title>
+    </head>
+    <body>
+        <h1>A script to access any of the form object element</h1>
+        <br>
+        <form id="myform" action="#">
+        Name:  <input type="text"> <br>
+        Course: <input type="text"> <br>
+        Semester: <input type="number"> <br>
+        <input type="button" name="submit" value="Show" onclick="value_show()">
+        </form>
+        <script type="text/javascript">
+            function value_show(){
+                var x = document.getElementById("myform");
+                var text = "";
+                for (i = 0; i < x.length-1;i++) {
+                text += x.elements[i].value + "<br>";
+                }
+                document.getElementById("demo").innerHTML = text;
+            }
+        </script>
+        <p id="demo"></p>
+    </body>
+</html>

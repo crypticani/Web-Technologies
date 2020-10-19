@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cookies</title>
+    </head>
+    <body>
+        <h2>Script to deal with Cookies</h2>
+        <button onclick="addcookies()">Add Cookies</button>
+        <button onclick="display()">Display Cookies</button>
+        <button onclick="deletecookies()">Delete Cookies</button>
+        
+        <script>
+            var x = document.cookie
+            function addcookies(){
+                x = "username=crypticani; expires=Thu, 18 Dec 2013 12:00:00 UTC";
+                alert("Cookies added")
+            }
+            function deletecookies(){
+                x = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+                alert("cookies deleted")
+            }
+            function display(){
+                alert(x)
+            }
+        </script>
+    </body>
+</html>
